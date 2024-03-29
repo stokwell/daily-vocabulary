@@ -2,6 +2,8 @@
 
 ## Next Steps for Development
 
+[An example Phoenix + Docker app](https://github.com/nickjj/docker-phoenix-example) (GitHub)
+
 [Using GitLab CI/CD with a GitHub repository](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/github_integration.html)
 
 [Authentication with Google Oauth ](https://github.com/dwyl/elixir-auth-google) (Library)
