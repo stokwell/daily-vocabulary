@@ -2,11 +2,21 @@
 
 ## Next Steps for Development
 
-[An example Phoenix + Docker app](https://github.com/nickjj/docker-phoenix-example) (GitHub)
+[Authentication with Google Oauth ](https://github.com/dwyl/elixir-auth-google) (Library)
+
+[](https://iacobson.medium.com/phx-gen-auth-and-oauth-for-a-phoenix-liveview-app-a19a27e6befa)
+
+## CI/CD
+
+[How to Implement GitLab CI/CD Pipeline with Terraform](https://spacelift.io/blog/gitlab-terraform)
 
 [Using GitLab CI/CD with a GitHub repository](https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/github_integration.html)
 
-[Authentication with Google Oauth ](https://github.com/dwyl/elixir-auth-google) (Library)
+[Nomad the Easy Way - Creating GitHub & GitLab Pipelines in Minutes](https://www.youtube.com/watch?v=NXsvhSgYKfk)
+
+
+
+[An example Phoenix + Docker app](https://github.com/nickjj/docker-phoenix-example) (GitHub) 
 
 [ElixirConf 2022 - Ryan Cooke - E2E Reactivity - using Svelte with Phoenix LiveView](https://www.youtube.com/watch?v=asm2TTm035o) (Frontend Approach)
 
