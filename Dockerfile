@@ -43,8 +43,7 @@ RUN mix deps.compile
 COPY --chown=elixir:elixir . .
 
 RUN if [ "${MIX_ENV}" != "dev" ]; then \
-  ln -s /public /app/priv/static \
-    && mix phx.digest && mix release && rm -rf /app/priv/static; fi
+  mix phx.digest && mix release;  fi
 
 EXPOSE 4000
 
@@ -72,8 +71,8 @@ USER elixir
 
 ENV USER=elixir
 
-COPY --chown=elixir:elixir --from=dev /public /public
-COPY --chown=elixir:elixir --from=dev /mix/_build/prod/rel/hello ./
+# COPY --chown=elixir:elixir --from=dev /public /public
+# COPY --chown=elixir:elixir --from=dev /mix/_build/prod/rel/ ./
 
 EXPOSE 4000
 
