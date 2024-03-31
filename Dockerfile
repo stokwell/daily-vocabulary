@@ -74,8 +74,6 @@ ENV USER=elixir
 
 COPY --chown=elixir:elixir --from=dev /public /public
 COPY --chown=elixir:elixir --from=dev /mix/_build/prod/rel/hello ./
-COPY --chown=elixir:elixir bin/docker-entrypoint-web bin/
-
 
 EXPOSE 4000
 
