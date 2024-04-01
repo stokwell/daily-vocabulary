@@ -1,5 +1,7 @@
 # Daily Vocabulary Elixir Backend
 
+This Project is moved to private Gitlab Repository due to security concern. 
+
 ## Next Steps for Development
 
 [Authentication with Google Oauth ](https://github.com/dwyl/elixir-auth-google) (Library)
